@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dormulaire_DB", "Dormulaire_DB\Dormulaire_DB.csproj", "{FBB09BD3-7D15-4823-B480-D09A1E8BA864}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E507D774-C698-415E-BB42-3BDFE7F82A46} = {E507D774-C698-415E-BB42-3BDFE7F82A46}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dormulaire_DB.Web", "Dormulaire_DB.Web\Dormulaire_DB.Web.csproj", "{E507D774-C698-415E-BB42-3BDFE7F82A46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBB09BD3-7D15-4823-B480-D09A1E8BA864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB09BD3-7D15-4823-B480-D09A1E8BA864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB09BD3-7D15-4823-B480-D09A1E8BA864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB09BD3-7D15-4823-B480-D09A1E8BA864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E507D774-C698-415E-BB42-3BDFE7F82A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E507D774-C698-415E-BB42-3BDFE7F82A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E507D774-C698-415E-BB42-3BDFE7F82A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E507D774-C698-415E-BB42-3BDFE7F82A46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
